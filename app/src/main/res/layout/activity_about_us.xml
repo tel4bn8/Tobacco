@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about_us"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightgray"
+    tools:context="com.nss.tobacco.activity.AboutUs">
+
+    <include layout="@layout/next_lev_title"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@color/white"
+        android:paddingTop="10dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingBottom="15dp"
+        android:src="@drawable/cologo1"/>
+
+    <RelativeLayout
+        style="@style/person_niandushezhi_check">
+
+        <TextView
+            android:id="@+id/frm_forth_gywm_rjmc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="20sp"
+            android:text="@string/gywmRjmc"/>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/frm_forth_gywm_rjmc"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/gray"/>
+
+        <TextView
+            android:id="@+id/frm_forth_gywm_rjmc_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:textSize="20sp"
+            android:text="@string/gywmRjmcName"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        style="@style/person_niandushezhi_check">
+
+        <TextView
+            android:id="@+id/frm_forth_gywm_rjbb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="20sp"
+            android:text="@string/gywmRjbb"/>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/frm_forth_gywm_rjbb"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/gray"/>
+
+        <TextView
+            android:id="@+id/frm_forth_gywm_rjbb_Version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:textSize="20sp"
+            android:text="V1.0"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/person_niandushezhi_check">
+
+        <TextView
+            android:id="@+id/frm_forth_gywm_fbrq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="20sp"
+            android:text="@string/gywmFbrq"/>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/frm_forth_gywm_fbrq"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/gray"/>
+
+        <TextView
+            android:id="@+id/frm_forth_gywm_rjbb_fbrq_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:textSize="20sp"
+            android:text="2016-11-20"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/person_niandushezhi_check">
+
+        <TextView
+            android:id="@+id/frm_forth_gywm_gsmc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="20sp"
+            android:text="@string/gywmKfgs"/>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/frm_forth_gywm_gsmc"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/gray"/>
+
+        <TextView
+            android:id="@+id/frm_forth_gywm_gsmc_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:textSize="20sp"
+            android:text="@string/gywmGsName"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

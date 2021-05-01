@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sec_msg__hongkaoshi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.nss.tobacco.activitymanagement.Sec_msg_HongkaoshiActivity">
+    <include layout="@layout/item_title_msg"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+        <GridView
+            android:id="@+id/second_msg_hks_add_caremaView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="@android:color/transparent"
+            android:fadeScrollbars="true"
+            android:fadingEdge="none"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="4"
+            android:paddingLeft="1dp"
+            android:paddingRight="1dp"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth" />
+
+    </RelativeLayout>
+    <!--第一行-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <include layout="@layout/item_line_horizontal"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    style="@style/addpage_text"
+                    android:text="@string/addMsg_xingming"/>
+                <TextView
+                    android:id="@+id/second_msg_hks_add_name_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    style="@style/addpage_text" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <include layout="@layout/item_line_vertical"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    style="@style/addpage_text"
+                    android:text="@string/addMsg_tel"/>
+                <TextView
+                    android:id="@+id/second_msg_hks_add_tel_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    style="@style/addpage_text" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--第二行-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <include layout="@layout/item_line_horizontal"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    style="@style/addpage_text"
+                    android:text="@string/addMsg_xiaoguo"/>
+                <TextView
+                    android:id="@+id/second_msg_hks_add_xiaoguo_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    style="@style/addpage_text" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <include layout="@layout/item_line_vertical"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    style="@style/addpage_text"
+                    android:text="@string/addMsg_time"/>
+                <TextView
+                    android:id="@+id/second_msg_hks_add_time_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    style="@style/addpage_text" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--第二行-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <include layout="@layout/item_line_horizontal"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    style="@style/addpage_text"
+                    android:text="@string/frmFirst.yanjiyuan"/>
+                <TextView
+                    android:id="@+id/second_hks_add_yanjiyuan_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    style="@style/addpage_text" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <include layout="@layout/item_line_vertical"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <include layout="@layout/item_line_horizontal"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    style="@style/addpage_text"
+                    android:text="@string/addMsg_beizhu"/>
+                <TextView
+                    android:id="@+id/second_msg_hks_add_beizhu_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    style="@style/addpage_text" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <include layout="@layout/item_line_horizontal"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        style="@style/btnPadding">
+        <Button
+            android:id="@+id/second_msg_hks_add_btn_back"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/addMsg_back"
+            style="@style/btnStyle"/>
+    </LinearLayout>
+
+</LinearLayout>

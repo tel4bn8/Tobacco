@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_yn_hetong"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightgray"
+    tools:context="com.nss.tobacco.activitypreparation.YnYannongDaActivity">
+
+    <include layout="@layout/item_title_shengchan_detail"/>
+    <include layout="@layout/item_frm_first_search"/>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/frm_first_yn_htgl_swipe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/frm_first_yn_htgl_recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>

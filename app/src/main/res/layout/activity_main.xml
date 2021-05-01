@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/gray"/>
+    <RadioGroup
+        android:id="@+id/tab_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+        <RadioButton
+            android:id="@+id/rb_chanqianzhunbei"
+            style="@style/daohangStyle"
+            android:drawableTop="@drawable/tab_selector_chanqianzhunbei"
+            android:text="@string/daohang_chanqianzhunbei" />
+
+        <RadioButton
+            android:id="@+id/rb_shengchanguanli"
+            style="@style/daohangStyle"
+            android:drawableTop="@drawable/tab_selector_shengchanguanli"
+            android:text="@string/daohang_shengchanguanli" />
+
+        <RadioButton
+            android:id="@+id/rb_zonghexinxi"
+            style="@style/daohangStyle"
+            android:drawableTop="@drawable/tab_selector_zonghexinxi"
+            android:text="@string/daohang_zonghexinxi" />
+
+        <RadioButton
+            android:id="@+id/rb_setting"
+            style="@style/daohangStyle"
+            android:drawableTop="@drawable/tab_selector_wodeshezhi"
+            android:text="@string/daohang_wodeshezhi" />
+    </RadioGroup>
+
+</LinearLayout>
+

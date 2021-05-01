@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_yn_yannong_da_add"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="true"
+    android:orientation="vertical"
+    tools:context="com.nss.tobacco.activitypreparation.YnYannongDaAddActivity">
+    <include layout="@layout/item_title_addmsg" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="3">
+        <ImageView
+            android:id="@+id/frm_first_yn_ynda_add"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="18dp"
+            android:layout_marginStart="18dp"
+            android:src="@drawable/photo" />
+        <GridView
+            android:id="@+id/frm_first_yn_ynda_add_caremaView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/frm_first_yn_ynda_add"
+            android:cacheColorHint="@android:color/transparent"
+            android:fadeScrollbars="true"
+            android:fadingEdge="none"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="3"
+            android:paddingLeft="1dp"
+            android:paddingRight="1dp"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"/>
+    </RelativeLayout>
+
+    <!-- 第一行-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <include layout="@layout/item_line_horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/addpage_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/frmFirstYNynda.name" />
+
+                <EditText
+                    android:id="@+id/frm_first_yn_ynda_add_edittext_Name"
+                    style="@style/addpage_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/frmFirstYNynda.inputhintname" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- 第一行-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <include layout="@layout/item_line_horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/addpage_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/frmFirstYNynda.IDcardNum" />
+
+                <EditText
+                    android:id="@+id/frm_first_yn_ynda_add_edittext_IDcardNum"
+                    style="@style/addpage_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:digits="1234567890x"
+                    android:inputType="number"
+                    android:hint="@string/frmFirstYNynda.inputhintIDcardNum" />
+
+                <!--<TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    style="@style/addpage_text"
+                    android:text="@string/frmFirstYNynda.yannongState"/>
+
+                <Spinner
+                    android:id="@+id/frm_first_yn_ynda_add_spinner_yannongState"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/yannongstate" />-->
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <include layout="@layout/item_line_vertical" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <!--第二行-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <include layout="@layout/item_line_horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/addpage_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/frmFirstYNynda.age" />
+
+                <TextView
+                    android:id="@+id/frm_first_yn_ynda_add_textview_age"
+                    style="@style/addpage_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/frmFirstYNynda.inputhintIDcardNumYZ" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <include layout="@layout/item_line_vertical" />
+
+                <TextView
+                    style="@style/addpage_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/frmFirstYNynda.sex" />
+
+                <TextView
+                    android:id="@+id/frm_first_yn_ynda_add_textview_sex"
+                    style="@style/addpage_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/frmFirstYNynda.inputhintIDcardNumYZ" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--第三行-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <include layout="@layout/item_line_horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/addpage_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/frmFirstYNynda.phoneNum" />
+
+                <EditText
+                    android:id="@+id/frm_first_yn_ynda_add_edittext_phoneNum"
+                    style="@style/addpage_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/frmFirstYNynda.inputhintphone"
+                    android:inputType="phone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <include layout="@layout/item_line_vertical" />
+
+                <TextView
+                    style="@style/addpage_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/frmFirstYNynda.cultureLevel" />
+
+                <Spinner
+                    android:id="@+id/frm_first_yn_ynda_add_spinner_cultureLevel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/wenhua" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--第四行-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <include layout="@layout/item_line_horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/addpage_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/frmFirstYNynda.zhongzhiAge" />
+
+                <EditText
+                    android:id="@+id/frm_first_yn_ynda_add_edittext_zhongzhiAge"
+                    style="@style/addpage_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:digits="1234567890."
+                    android:inputType="number"
+                    android:hint="@string/frmFirstYNynda.inputhintzhongzhiAge" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <include layout="@layout/item_line_vertical" />
+
+                <TextView
+                    style="@style/addpage_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/frmFirstYNynda.zhongzhiLevel" />
+
+                <Spinner
+                    android:id="@+id/frm_first_yn_ynda_add_spinner_zhongzhiLevel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/shuiping" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--第五行-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <include layout="@layout/item_line_horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/addpage_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/frmFirstYNynda.zhongzhiYears" />
+
+                <Spinner
+                    android:id="@+id/frm_first_yn_ynda_add_spinner_zhongzhiYears"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/year_item" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <include layout="@layout/item_line_vertical" />
+
+                <TextView
+                    style="@style/addpage_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/frmFirstYNynda.zhongzhiArea" />
+
+                <EditText
+                    android:id="@+id/frm_first_yn_ynda_add_edittext_zhongzhiArea"
+                    style="@style/addpage_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:digits="1234567890."
+                    android:inputType="number"
+                    android:hint="@string/frmFirst" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--第六行-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <include layout="@layout/item_line_horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/addpage_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/frmFirst.HomeAddress" />
+
+                <Spinner
+                    android:id="@+id/frm_first_yn_ynda_add_spinner_HomeAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/shuiping" />
+
+                <!--                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    style="@style/addpage_text"
+                                    android:text="@string/frmFirst.stop"/>
+                                <TextView
+                                    android:id="@+id/frm_first_yn_ynda_add_textview_stop"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    style="@style/addpage_text" />-->
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <include layout="@layout/item_line_vertical" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--第七行-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <include layout="@layout/item_line_horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/addpage_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/frmFirstYNynda.credit" />
+
+                <Spinner
+                    android:id="@+id/frm_first_yn_ynda_add_spinner_credit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/chengxindu" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <include layout="@layout/item_line_vertical" />
+
+                <TextView
+                    style="@style/addpage_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/frmFirstYNynda.starPingding" />
+
+                <Spinner
+                    android:id="@+id/frm_first_yn_ynda_add_spinner_starPingding"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:entries="@array/pingji" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--第八行-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <include layout="@layout/item_line_horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/addpage_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/frmFirst.inputTime" />
+
+                <TextView
+                    android:id="@+id/frm_first_yn_ynda_add_textview_inputTime"
+                    style="@style/addpage_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/frmFirst.selectTime" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <include layout="@layout/item_line_vertical" />
+
+                <TextView
+                    style="@style/addpage_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/frmFirstYNynda.wanggeFuzeren" />
+
+                <TextView
+                    android:id="@+id/frm_first_yn_ynda_add_textview_wanggeFuzeren"
+                    style="@style/addpage_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <!--第九行-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <include layout="@layout/item_line_horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/addpage_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/frmFirst.beizhu" />
+
+                <EditText
+                    android:id="@+id/frm_first_yn_ynda_add_edittext_beizhu"
+                    style="@style/addpage_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/frmFirst.hintbeizhu" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <include layout="@layout/item_line_horizontal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/btnPadding"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/frm_first_yn_ynda_add_btnsave"
+            style="@style/btnStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/addMsg_save" />
+
+        <Button
+            android:id="@+id/frm_first_yn_ynda_add_btnback"
+            style="@style/btnStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/addMsg_back" />
+    </LinearLayout>
+
+</LinearLayout>

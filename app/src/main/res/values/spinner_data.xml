@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="age">
+        <item>15</item>
+        <item>16</item><item>17</item><item>18</item><item>19</item><item>20</item>
+        <item>21</item><item>22</item><item>23</item><item>24</item><item>25</item>
+        <item>26</item><item>27</item><item>28</item><item>29</item><item>30</item>
+        <item>31</item><item>32</item><item>33</item><item>34</item><item>35</item>
+        <item>36</item><item>37</item><item>38</item><item>39</item><item>40</item>
+        <item>41</item><item>42</item><item>43</item><item>44</item><item>45</item>
+        <item>46</item><item>47</item><item>48</item><item>49</item><item>50</item>
+        <item>51</item><item>52</item><item>53</item><item>54</item><item>55</item>
+        <item>56</item><item>57</item><item>58</item><item>59</item><item>60</item>
+        <item>61</item><item>62</item><item>63</item><item>64</item><item>65</item>
+        <item>66</item><item>67</item><item>68</item><item>69</item><item>70</item>
+        <item>71</item><item>72</item><item>73</item><item>74</item><item>75</item>
+    </string-array>
+    <string-array name="year">
+        <item>0.5</item><item>1</item><item>1.5</item><item>2</item><item>2.5</item>
+        <item>3</item><item>3.5</item><item>4</item><item>4.5</item><item>5</item>
+        <item>5.5</item><item>6</item><item>6.5</item><item>7</item><item>7.5</item>
+        <item>8</item><item>8.5</item><item>9</item><item>9.5</item><item>10</item>
+    </string-array>
+    <string-array name="farmer">
+        <item>王大锤</item>
+        <item>李团结</item>
+        <item>赵玉田</item>
+        <item>孙时</item>
+        <item>黄明明</item>
+        <item>王晓明</item>
+        <item>杨洋</item>
+    </string-array>
+    <string-array name="wenhua">
+        <item>高中以下</item>
+        <item>高中</item>
+        <item>高中以上</item>
+    </string-array>
+    <string-array name="shuiping">
+        <item>高</item>
+        <item>中</item>
+        <item>差</item>
+    </string-array>
+    <string-array name="chengxindu">
+        <item>优</item>
+        <item>良</item>
+        <item>中</item>
+        <item>差</item>
+    </string-array>
+    <string-array name="pingji">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+    </string-array>
+    <!--新增烟田规划信息-->
+    <string-array name="niandu">
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+    </string-array>
+    <string-array name="tudilaiyuan">
+        <item>自有</item>
+        <item>流转</item>
+    </string-array>
+    <string-array name="turangleixing">
+        <item>褐土</item>
+        <item>棕壤</item>
+        <item>黑土</item>
+        <item>红壤</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="turangfeili">
+        <item>高</item>
+        <item>中</item>
+        <item>低</item>
+    </string-array>
+    <string-array name="qianchazuowu">
+        <item>重茬</item>
+        <item>玉米</item>
+        <item>红薯</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="paiguantiaojian">
+        <item>河</item>
+        <item>井</item>
+        <item>塘</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="tuzhileixing">
+        <item>砂土</item>
+        <item>黏土</item>
+        <item>壤土</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="dixing">
+        <item>平原</item>
+        <item>浅山</item>
+        <item>丘陵</item>
+        <item>其他</item>
+    </string-array>
+    <!--新增打顶抑牙信息-->
+    <string-array name="youhuapianshu">
+        <item>1</item>
+        <item>3</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <!--新增移栽信息-->
+    <string-array name="gaimo">
+        <item>是</item>
+        <item>否</item>
+    </string-array>
+    <string-array name="yizaifangshi">
+        <item>小苗膜下种</item>
+        <item>常规 </item>
+    </string-array>
+    <string-array name="leixing">
+        <item>中烟100</item>
+        <item>中烟205</item>
+        <item>豫烟6</item>
+        <item>豫烟10</item>
+        <item>豫烟12</item>
+        <item>云烟85</item>
+        <item>云烟87</item>
+        <item>云烟K326</item>
+    </string-array>
+    <!--新增消毒信息-->
+    <string-array name="miaoqing">
+        <item>正常</item>
+        <item>异常</item>
+    </string-array>
+
+    <!--新增苗期管理信息-->
+
+    <string-array name="miaoqi">
+        <item>播种</item>
+        <item>出苗</item>
+        <item>间定苗</item>
+        <item>剪叶</item>
+        <item>炼苗</item>
+        <item>供苗</item>
+    </string-array>
+
+
+    <!--新增打顶抑芽信息-->
+    <string-array name="zhangshi">
+        <item>正常</item>
+        <item>脱肥</item>
+        <item>营养过剩</item>
+        <item>倒挂</item>
+    </string-array>
+    <!--新增施肥信息-->
+    <string-array name="cishu">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <!--新增中耕培土信息-->
+    <string-array name="kaigou">
+        <item>是</item>
+        <item>否</item>
+    </string-array>
+    <!--新增烟田灌溉信息-->
+    <string-array name="bingchongleixing">
+        <item>病毒病</item>
+        <item>黑胫病</item>
+        <item>根结线虫病</item>
+        <item>赤星病</item>
+        <item>野火病</item>
+        <item>白粉病</item>
+        <item>蚜虫</item>
+        <item>地下害虫</item>
+        <item>烟青虫</item>
+    </string-array>
+    <string-array name="guangaicishu">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="guangai">
+        <item>滴喷</item>
+        <item>微喷</item>
+        <item>沟灌</item>
+    </string-array>
+    <!--新增成熟采收信息-->
+    <string-array name="shifou">
+        <item>是</item>
+        <item>否</item>
+    </string-array>
+    <!--新增烘烤信息-->
+    <string-array name="buwei">
+        <item>上部</item>
+        <item>中部</item>
+        <item>下部</item>
+    </string-array>
+    <!--新增自然灾害统计信息-->
+    <string-array name="zaihai">
+        <item>风</item>
+        <item>涝</item>
+        <item>旱</item>
+        <item>冰雹</item>
+        <item>病</item>
+    </string-array>
+        <!--年度-->
+        <string-array name="year_item">
+            <item>2016</item>
+            <item>2017</item>
+            <item>2018</item>
+            <item>2019</item>
+            <item>2020</item>
+            <item>2021</item>
+            <item>2022</item>
+        </string-array>
+        <!--新增烟农档案-->
+        <string-array name="sex">
+            <item>男</item>
+            <item>女 </item>
+        </string-array>
+        <!--烟草类型-->
+        <string-array name="yancaotype">
+            <item>中烟100</item>
+            <item>中烟205</item>
+            <item>豫烟6</item>
+            <item>豫烟10</item>
+            <item>豫烟12</item>
+            <item>云烟85</item>
+            <item>云烟87</item>
+            <item>云烟K326</item>
+        </string-array>
+        <!-- 测试-->
+        <string-array name="xingzhengquhua">
+            <item>十里铺</item>
+            <item>五里堡</item>
+        </string-array>
+        <string-array name="yannongName">
+            <item>张铁柱</item>
+            <item>张大千</item>
+        </string-array>
+        <string-array name="yumiaohuName">
+            <item>李武</item>
+            <item>李胜</item>
+        </string-array>
+        <string-array name="dilishuiping">
+        <item>高产田</item>
+        <item>中产田</item>
+        <item>低产田</item>
+        </string-array>
+
+        <!--审批状态-->
+        <string-array name="shenpizhuangtai">
+            <item>通过</item>
+            <item>不通过</item>
+        </string-array>
+        <string-array name="yannongstate">
+            <item>可用</item>
+            <item>不可用</item>
+        </string-array>
+        <!--烟农档案采集状态-->
+        <string-array name="caijizhuangtai">
+            <item>全部</item>
+            <item>已上传</item>
+            <item>未上传</item>
+        </string-array>
+        <!--物资发放单位-->
+        <string-array name="danwei">
+            <item>包</item>
+            <item>件</item>
+            <item>箱</item>
+            <item>瓶</item>
+            <item>盒</item>
+        </string-array>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/green">
+
+    <ImageView
+        android:id="@+id/next_lev_title_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:src="@drawable/bar_back"/>
+
+    <TextView
+        android:id="@+id/next_lev_title_tv"
+        android:layout_toRightOf="@+id/next_lev_title_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:text="年度设置"/>
+
+</RelativeLayout>

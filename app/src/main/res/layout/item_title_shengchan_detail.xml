@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/green">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/back_item"
+            android:layout_marginLeft="15dp"
+            android:clickable="true"
+            android:src="@drawable/bar_back"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            style="@style/itemTitleText"
+            android:text="title"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/back_item"
+            android:layout_toEndOf="@+id/back_item"
+            android:id="@+id/textView_item" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/xinzeng"
+            style="@style/itemTitleText"
+            android:drawableLeft="@drawable/bar_add"
+            android:id="@+id/add_item"
+            android:layout_toLeftOf="@+id/up_item"
+            android:layout_marginRight="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            style="@style/itemTitleText"
+            android:id="@+id/up_item"
+            android:text="上传"
+            android:drawableLeft="@drawable/bar_upload"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp" />
+</RelativeLayout>

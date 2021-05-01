@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sec__pic__biaozhun_"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nss.tobacco.activitymanagement.Sec_Pic_Biaozhun_Activity">
+    <include layout="@layout/item_title_biaozhunku"/>
+
+    <ImageView
+        android:id="@+id/biaozhun_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>

@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nss.tobacco">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <!-- 这个权限用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 这个权限用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- 用于读取手机当前的状态 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 写入扩展存储，向扩展卡写入数据，用于写入离线定位数据 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 访问网络，网络定位需要上网 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- SD卡读取权限，用户写入离线定位数据 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 清除缓存 -->
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
+    <!-- 调用系统相机权限 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:name=".MyApp"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.WelcomeActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.LoginActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.MiaoqiguanliActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.BingchongHaiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.YumiaoFafangActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.YizaiGuanliActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.JiemoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.DadingYiyaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.GuangaiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.ZhibaoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.ChengshuCaishouActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.Sec_msg_CaishouActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.HongkaoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.Sec_msg_HongkaoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.ShougouActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.ZaihaiTongjiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.Sec_msg_ZaihaiTongjiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.YannongPingjiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.Add_XiaoduActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.XiaoduActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.Add_YizaiGuanliActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SetYearActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AboutUs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitypreparation.WgJichuActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitypreparation.Msg_WgJichuActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitypreparation.WgTurangActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitypreparation.Msg_WgTurangActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitypreparation.WgYanyeLhActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitypreparation.Msg_WgYanyelhActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitypreparation.YnYantianDaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitypreparation.Msg_YnYantiandaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitypreparation.YnZhongzhiSpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitypreparation.Msg_YnZhongzhiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitypreparation.YnHetongActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitypreparation.Msg_YnHetongActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitypreparation.YmhYumaioActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitypreparation.Msg_YmhYumaioActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitypreparation.YmhYmGcActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitypreparation.Msg_YmhYmGcActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitypreparation.YmhYumiaoSpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitypreparation.Msg_YmhYumiaoSpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitypreparation.WzWuziFfActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitypreparation.Msg_WzWuzifafangActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.Add_BingchongFangzhiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.Add_HongkaoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.Add_GuangaiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.Add_CsCaishouActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.Add_YnpingjiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.Add_ZaihaiTongjiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.Add_ShougouActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.Add_ZhibaoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.Add_DadingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.Add_JiemoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.Add_YumiaoFafangActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.Add_MiaoqiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activityinfo.KaoheBzActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activityinfo.PeixunXcActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.BcFangzhiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.BiaozhunKuActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activityinfo.FuchiZhengceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activityinfo.ShijuWenjianActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activityinfo.YancaoFalvActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitypreparation.YnYannongDaAddActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitypreparation.YnYannongDaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitypreparation.Msg_WgYannongdaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitypreparation.YnYantianDaAddActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitypreparation.YmhYumaioAddActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitypreparation.YmhYmGcAddActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitypreparation.YnHetongAddActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitypreparation.YnZhongzhiSpAddActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitypreparation.WgYanyeLhAddActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitypreparation.WgTurangAddActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitypreparation.WgJichuAddActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitypreparation.YmhYumiaoSpAddActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitypreparation.WzWuziFfAddActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.MiaochaungZhuifeiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.Add_MiaoChuangZfActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.WenshiduActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.Add_WenshiduActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.TengchaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.QilongActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.DongguanActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.JifeiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.XuefeiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.ZhuifeiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.HongkaoshiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.Sec_msg_HongkaoshiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.BaoxianActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.TianjianpingguActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.Sec_msg_TianjianpingguActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.KaohoupingguActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.Sec_msg_KaohoupingguActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.Add_TengchaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.DonggengActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.Add_DonggengActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.Add_QilongActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.Add_DongguanActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.Add_HongkaoshiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.Add_JifeiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.Add_XuefeiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.Add_ZhuifeiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.Add_TianjianpingguActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.Add_KaohoupingguActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.Add_BaoxianActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.Sec_msg_BaoxianActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.Sec_msg_XiaoduActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.Sec_Pic_Biaozhun_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitypreparation.Msg_WgYantianGhActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitypreparation.WgYantianGhActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitypreparation.Add_YtGuihuaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ShowImageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.HelpDoc"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitypreparation.WgYantianGhAddActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activityinfo.Third_biaozhunzhishi_first_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activityinfo.Third_biaozhunzhishi_second_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitymanagement.Sec_msg_MiaoChuangZhuiFei"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activitymanagement.Sec_msg_TengChaActivity" />
+        <activity android:name=".activitymanagement.Sec_msg_BingChongHaiFzActivity" />
+        <activity android:name=".activitymanagement.Sec_msg_WenShiduGunaliActvity" />
+        <activity android:name=".activitymanagement.Sec_msg_YuMiaoFaFangActivity" />
+        <activity android:name=".activitymanagement.Sec_msg_DengGengActivity" />
+        <activity android:name=".activitymanagement.Sec_msg_QiLongActivity" />
+        <activity android:name=".activitymanagement.Sec_msgDongGuanActivity" />
+        <activity android:name=".activitymanagement.Sec_msg_YiZaiActivity" />
+        <activity android:name=".activitymanagement.Sec_msg_GuanGaiActivity" />
+        <activity android:name=".activitymanagement.Sec_msg_ZhiBaoActivity" />
+        <activity android:name=".activitymanagement.Sec_msg_JieMoActivity" />
+        <activity android:name=".activitymanagement.Sec_msg_DaDingActivity" />
+        <activity android:name=".activitymanagement.Sec_msg_JiFeiActivity" />
+        <activity android:name=".activitymanagement.Sec_msg_XueFeiActivity" />
+        <activity android:name=".activitymanagement.Sec_msgZhuiFeiActivity" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".activitymanagement.Sec_msg_MiaoQiGuanLiActivity"></activity>
+    </application>
+
+</manifest>

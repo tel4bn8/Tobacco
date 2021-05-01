@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightgray"
+    android:orientation="vertical">
+
+    <include layout="@layout/title"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/homebackground">
+
+        <ImageView
+            android:id="@+id/frm_home_ic_headphoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/first_face" />
+
+        <TextView
+            android:id="@+id/frm_first_headName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/frm_home_ic_headphoto"
+            android:layout_marginLeft="5dp"
+            android:text="张铁柱"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+        <LinearLayout
+            android:id="@+id/frm_home_llYn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/frm_first_nongli"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="15dp"
+                android:text="56"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/frm_first_jieqi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="10dp"
+                android:text="种烟户"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/frm_home_viewline"
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_toLeftOf="@+id/frm_home_llYn"
+            android:background="@color/white" />
+
+        <LinearLayout
+            android:id="@+id/frm_home_llYmh"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/frm_home_viewline"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/frm_first_gonglishijian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="6"
+                android:textColor="@color/white"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/frm_first_gonglixingqi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingBottom="5dp"
+                android:text="shjian"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <include layout="@layout/culine"/>
+
+                    <TextView
+                        style="@style/frmFiestlineTitle"
+                        android:text="@string/frmFirstWanggehuaguanli"/>
+
+                    <include layout="@layout/xiline"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/frm_first_wgh_ytgh"
+                            style="@style/frmFiestlineTitle.ll">
+
+                            <ImageView
+                                style="@style/frmFiestlineTitle.iv"
+                                android:src="@drawable/yantianguihua" />
+
+                            <TextView
+                                style="@style/frmFiestlineTitle.tv"
+                                android:text="@string/frmFirstWGHytgh"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/frm_first_wgh_jcss"
+                            style="@style/frmFiestlineTitle.ll">
+
+                            <ImageView
+                                style="@style/frmFiestlineTitle.iv"
+                                android:src="@drawable/jichusheshi"
+                                />
+
+                            <TextView
+                                style="@style/frmFiestlineTitle.tv"
+                                android:text="@string/frmFirstWGHjcss"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/frm_first_wgh_trjc"
+                            style="@style/frmFiestlineTitle.ll">
+
+                            <ImageView
+                                style="@style/frmFiestlineTitle.iv"
+                                android:src="@drawable/turangjiance"
+                                />
+
+                            <TextView
+                                style="@style/frmFiestlineTitle.tv"
+                                android:text="@string/frmFirstWGHtrjc"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/frm_first_wgh_yylh"
+                            style="@style/frmFiestlineTitle.ll">
+
+                            <ImageView
+                                style="@style/frmFiestlineTitle.iv"
+                                android:src="@drawable/yanyelihua"
+                                />
+
+                            <TextView
+                                style="@style/frmFiestlineTitle.tv"
+                                android:text="@string/frmFirstWGHyylh"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <include layout="@layout/culine"/>
+
+                    <TextView
+                        style="@style/frmFiestlineTitle"
+                        android:text="@string/frmFirstYannongguanli"/>
+
+                    <include layout="@layout/xiline"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/frm_first_yn_ynda"
+                            style="@style/frmFiestlineTitle.ll">
+
+                            <ImageView
+                                style="@style/frmFiestlineTitle.iv"
+                                android:src="@drawable/yannongdangan" />
+
+                            <TextView
+                                style="@style/frmFiestlineTitle.tv"
+                                android:text="@string/frmFirstYNynda"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/frm_first_yn_ytda"
+                            style="@style/frmFiestlineTitle.ll">
+
+                            <ImageView
+                                style="@style/frmFiestlineTitle.iv"
+                                android:src="@drawable/yantiandangan"
+                                />
+
+                            <TextView
+                                style="@style/frmFiestlineTitle.tv"
+                                android:text="@string/frmFirstYNytda"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/frm_first_yn_zzsp"
+                            style="@style/frmFiestlineTitle.ll">
+
+                            <ImageView
+                                style="@style/frmFiestlineTitle.iv"
+                                android:src="@drawable/zhongzhishenpi"
+                                />
+
+                            <TextView
+                                style="@style/frmFiestlineTitle.tv"
+                                android:text="@string/frmFirstYNzzsp"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/frm_first_yn_htgl"
+                            style="@style/frmFiestlineTitle.ll">
+
+                            <ImageView
+                                style="@style/frmFiestlineTitle.iv"
+                                android:src="@drawable/hetongguanli"
+                                />
+
+                            <TextView
+                                style="@style/frmFiestlineTitle.tv"
+                                android:text="@string/frmFirstYNhtgl"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <include layout="@layout/culine"/>
+
+                    <TextView
+                        style="@style/frmFiestlineTitle"
+                        android:text="@string/frmFirstYumiaohuguanli"/>
+
+                    <include layout="@layout/xiline"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/frm_first_ymh_ymh"
+                            style="@style/frmFiestlineTitle.ll">
+
+                            <ImageView
+                                style="@style/frmFiestlineTitle.iv"
+                                android:src="@drawable/yumiaohu" />
+
+                            <TextView
+                                style="@style/frmFiestlineTitle.tv"
+                                android:text="@string/frmFirstYMHymh"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/frm_first_ymh_ymgc"
+                            style="@style/frmFiestlineTitle.ll">
+
+                            <ImageView
+                                style="@style/frmFiestlineTitle.iv"
+                                android:src="@drawable/yumiaogongchang"
+                                />
+
+                            <TextView
+                                style="@style/frmFiestlineTitle.tv"
+                                android:text="@string/frmFirstYMHymgc"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/frm_first_ymh_ymsp"
+                            style="@style/frmFiestlineTitle.ll">
+
+                            <ImageView
+                                style="@style/frmFiestlineTitle.iv"
+                                android:src="@drawable/yumiaoshenpi"
+                                />
+
+                            <TextView
+                                style="@style/frmFiestlineTitle.tv"
+                                android:text="@string/frmFirstYMHymsp"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent">
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <include layout="@layout/culine"/>
+
+                    <TextView
+                        style="@style/frmFiestlineTitle"
+                        android:text="@string/frmFirstWuziguanli"/>
+
+                    <include layout="@layout/xiline"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/frm_first_wz_wzff"
+                            style="@style/frmFiestlineTitle.ll">
+
+                            <!--<ImageView
+                                style="@style/frmFiestlineTitle.iv"
+                                android:src="@drawable/wuzishenpi" />
+
+                            <TextView
+                                style="@style/frmFiestlineTitle.tv"
+                                android:text="@string/frmFirstWZwzsp"/>-->
+                            <ImageView
+                                style="@style/frmFiestlineTitle.iv"
+                                android:src="@drawable/wuzifafang"
+                                />
+
+                            <TextView
+                                style="@style/frmFiestlineTitle.tv"
+                                android:text="@string/frmFirstWZwzff"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent">
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent">
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent">
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

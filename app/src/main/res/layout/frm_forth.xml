@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/title"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@drawable/forthbackground">
+        
+        <ImageView
+            android:id="@+id/frm_myset_default_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/default_photo"/>
+
+        <TextView
+            android:id="@+id/frm_forth_tv_adminName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/frm_myset_default_photo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:text="张铁柱"
+            android:textSize="26sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/lightgray">
+
+        <LinearLayout
+            android:id="@+id/frm_forth_ndsz"
+            style="@style/person_LinearLayout">
+
+            <ImageView
+                style="@style/person_img"
+                android:src="@drawable/ico_my_set" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/person_text"
+                android:drawableRight="@mipmap/ic_case_more_icon"
+                android:text="@string/frmForthNdsz" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/black"/>
+
+        <LinearLayout
+            android:id="@+id/frm_forth_sjql"
+            style="@style/person_LinearLayout">
+
+            <ImageView
+                style="@style/person_img"
+                android:src="@drawable/ico_del" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/person_text"
+                android:drawableRight="@mipmap/ic_case_more_icon"
+                android:text="@string/frmForthSjql" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/black"/>
+
+        <LinearLayout
+            android:id="@+id/frm_forth_bzwd"
+            style="@style/person_LinearLayout">
+
+            <ImageView
+                style="@style/person_img"
+                android:src="@drawable/ic_help_normal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/person_text"
+                android:drawableRight="@mipmap/ic_case_more_icon"
+                android:text="@string/frmForthBzwd" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/black"/>
+
+        <LinearLayout
+            android:id="@+id/frm_forth_mmxg"
+            style="@style/person_LinearLayout">
+
+            <ImageView
+                style="@style/person_img"
+                android:src="@drawable/ico_my_friend" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/person_text"
+                android:drawableRight="@mipmap/ic_case_more_icon"
+                android:text="@string/frmForthMmxg" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/black"/>
+
+        <LinearLayout
+            android:id="@+id/frm_forth_rjsj"
+            style="@style/person_LinearLayout">
+
+            <ImageView
+                style="@style/person_img"
+                android:src="@drawable/ico_uppdata" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/person_text"
+                android:drawableRight="@mipmap/ic_case_more_icon"
+                android:text="@string/frmForthRjsj" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/black"/>
+
+        <LinearLayout
+            android:id="@+id/frm_forth_gyxt"
+            style="@style/person_LinearLayout">
+
+            <ImageView
+                style="@style/person_img"
+                android:src="@drawable/ic_us_normal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/person_text"
+                android:drawableRight="@mipmap/ic_case_more_icon"
+                android:text="@string/frmForthGyxt" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/frm_forth_btn_out"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:clickable="true"
+            android:background="@drawable/shape"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:text="退出"/>
+
+    </LinearLayout>
+
+</LinearLayout>

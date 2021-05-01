@@ -1,0 +1,494 @@
+﻿<resources>
+    <string name="app_name">烟叶生产标准化系统</string>
+    <!--底部导航栏信息-->
+    <string name="daohang_chanqianzhunbei">产前准备</string>
+    <string name="daohang_shengchanguanli">生产管理</string>
+    <string name="daohang_zonghexinxi">综合信息</string>
+    <string name="daohang_wodeshezhi">我的设置</string>
+
+    <!--第一页分项标题-->
+    <string name="frmFirstWanggehuaguanli">网格化管理</string>
+    <string name="frmFirstYannongguanli">烟农管理</string>
+    <string name="frmFirstYumiaohuguanli">育苗户管理</string>
+    <string name="frmFirstWuziguanli">物资管理</string>
+
+    <!--第一页图标名称-->
+    <string name="frmFirstWGHytgh">烟田规划</string>
+    <string name="frmFirstWGHjcss">基础设施</string>
+    <string name="frmFirstWGHtrjc">土壤检测</string>
+    <string name="frmFirstWGHyylh">烟叶理化</string>
+
+    <string name="frmFirstYNynda">烟农档案</string>
+    <string name="frmFirstYNytda">烟田档案</string>
+    <string name="frmFirstYNzzsp">种植审批</string>
+    <string name="frmFirstYNhtgl">草签合同</string>
+
+    <string name="frmFirstYMHymh">育苗户</string>
+    <string name="frmFirstYMHymgc">育苗工场</string>
+    <string name="frmFirstYMHymsp">育苗审批</string>
+
+    <string name="frmFirstWZwzsp">物资审批</string>
+    <string name="frmFirstWZwzff">物资发放</string>
+
+    <!--登录页面-->
+    <string name="Login_hintName">请输入用户名/手机号</string>
+    <string name="Login_hintPassword">请输入6位密码</string>
+    <string name="Login_login">登录</string>
+
+    <!--第一页统一字符-->
+    <string name="frmFirst">请输入</string>
+    <string name="frmFirst.inputTime">登记时间：</string>
+    <string name="frmFirst.selectTime">请选择时间</string>
+    <string name="frmFirst.beizhu">备注信息：</string>
+    <string name="frmFirst.hintbeizhu">请输入备注信息</string>
+    <string name="frmFirst.stop">烟站:</string>
+    <string name="frmFirst.HomeAddress">行政区划:</string>
+    <string name="frmFirst.yanjiyuan">烟技员：</string>
+    <string name="frmFirstYNhtgl.yanyeType">烟叶品种：</string>
+    <string name="frmFirst.yewuYear">业务年度：</string>
+
+    <!--第一页基础设施表-->
+    <string name="frmFirstWGjcss.village">村名：</string>
+    <string name="frmFirstWGjcss.kaofangNum">烤房数(个)：</string>
+    <string name="frmFirstWGjcss.hintkaofangNum">输入烤房数量</string>
+    <string name="frmFirstWGjcss.jijingNum">机井数(口)：</string>
+    <string name="frmFirstWGjcss.hintjijingNum">输入机井数量</string>
+
+    <!--第一页烟田规划表-->
+    <string name="frmFirstWGytgh.village">村名：</string>
+    <string name="frmFirstWGytgh.guhuaniandu">规划年度：</string>
+    <string name="frmFirstWGytgh.mianji">规划面积（亩）：</string>
+    <string name="frmFirstWGytgh.hintmianji">输入规划面积</string>
+    <string name="frmFirstWGytgh.jingdu">经度：</string>
+    <string name="frmFirstWGytgh.weidu">纬度：</string>
+    <string name="frmFirstWGytgh.dixing">地形：</string>
+    <string name="frmFirstWGytgh.tuzhileixing">土质类型：</string>
+    <string name="frmFirstWGytgh.turangleixing">土壤类型：</string>
+    <string name="frmFirstWGytgh.turangfeili">土壤肥力：</string>
+    <string name="frmFirstWGytgh.modiTime">摸底时间：</string>
+
+    <!--第一页土壤检测表-->
+    <string name="frmFirstWGtrjc.wanggeID">网格编号：</string>
+    <string name="frmFirstWGtrjc.youjizhi">有机质%：</string>
+    <string name="frmFirstWGtrjc.hintyoujizhi">输入有机质百分比</string>
+    <string name="frmFirstWGtrjc.PH">PH值：</string>
+    <string name="frmFirstWGtrjc.hintPH">输入ph值</string>
+    <string name="frmFirstWGtrjc.suxiaoN">速效氮%：</string>
+    <string name="frmFirstWGtrjc.hintsuxiaoN">输入速效氮含量</string>
+    <string name="frmFirstWGtrjc.suxiaoP">速效磷%：</string>
+    <string name="frmFirstWGtrjc.hintsuxiaoP">输入速效磷含量</string>
+    <string name="frmFirstWGtrjc.suxiaoK">速效钾%：</string>
+    <string name="frmFirstWGtrjc.hintsuxiaoK">输入速效钾含量</string>
+    <string name="frmFirstWGtrjc.Cl">氯%：</string>
+    <string name="frmFirstWGtrjc.hintCl">输入氯含量</string>
+    <string name="frmFirstWGtrjc.caiyangTime">采样时间：</string>
+
+    <!--第一页烟叶理化表-->
+    <string name="frmFirstWGyylh.K">钾%：</string>
+    <string name="frmFirstWGyylh.hintK">输入烟叶钾含量</string>
+    <string name="frmFirstWGyylh.Cl">氯%：</string>
+    <string name="frmFirstWGyylh.hintCl">输入烟叶氯含量</string>
+    <string name="frmFirstWGyylh.yanjian">烟碱%：</string>
+    <string name="frmFirstWGyylh.hintyanjian">输入烟碱含量</string>
+    <string name="frmFirstWGyylh.huanyuantang">还原糖%：</string>
+    <string name="frmFirstWGyylh.hinthuanyuantang">输入还原糖含量</string>
+    <string name="frmFirstWGyylh.zongtang">总糖%：</string>
+    <string name="frmFirstWGyylh.hintzongtang">输入总糖含量</string>
+    <string name="frmFirstWGyylh.caiyangTime">采样时间：</string>
+
+
+    <!--第一页育苗工场表-->
+    <string name="frmFirstYMHymgc.dapengID">工场名称：</string>
+    <string name="frmFirstYMHymgc.hintdapengID">请输入工场名称</string>
+    <string name="frmFirstYMHymgc.yumiaohuName">育苗户姓名：</string>
+    <string name="frmFirstYMHymgc.yanzhan">烟站：</string>
+    <string name="frmFirstYMHymgc.xingzhengquhua">行政区划：</string>
+    <string name="frmFirstYMHymgc.dapengNum">大棚数量：</string>
+    <string name="frmFirstYMHymgc.hintdapengNum">请输入大棚数量</string>
+    <string name="frmFirstYMHymgc.dapengjiegou">大棚结构：</string>
+    <string name="frmFirstYMHymgc.hintdapengjiegou">请输入大棚结构</string>
+    <string name="frmFirstYMHymgc.mianji">占地面积：</string>
+    <string name="frmFirstYMHymgc.hintmianji">请输入大棚占地面积</string>
+    <string name="frmFirstYMHymgc.yumiaoNum">育苗数量：</string>
+    <string name="frmFirstYMHymgc.hintyumiaoNum">请输入育苗数量</string>
+    <string name="frmFirstYMHymgc.xiujianshijian">修建时间：</string>
+    <string name="frmFirstYMHymgc.dengjiren">登记人：</string>
+    <string name="frmFirstYMHymgc.hintdengjiren">请输入登记人</string>
+
+    <!--第一页育苗审批表-->
+    <string name="frmFirstYMHymsp.yumiaohuName">育苗户姓名：</string>
+
+
+    <!--第一页烟农档案表-->
+    <string name="frmFirstYNynda.name">姓名:</string>
+    <string name="frmFirstYNynda.inputhintname">输入姓名</string>
+    <string name="frmFirstYNynda.IDcardNum">身份证号:</string>
+    <string name="frmFirstYNynda.inputhintIDcardNum">输入身份证号</string>
+    <string name="frmFirstYNynda.age">年龄:</string>
+    <string name="frmFirstYNynda.inputhintIDcardNumYZ">先输入正确身份证号</string>
+    <string name="frmFirstYNynda.sex">性别:</string>
+    <string name="frmFirstYNynda.phoneNum">手机号:</string>
+    <string name="frmFirstYNynda.inputhintphone">输入手机号</string>
+    <string name="frmFirstYNynda.cultureLevel">文化程度:</string>
+    <string name="frmFirstYNynda.zhongzhiAge">种植年限(年):</string>
+    <string name="frmFirstYNynda.inputhintzhongzhiAge">输入种烟年限</string>
+    <string name="frmFirstYNynda.zhongzhiLevel">种植水平</string>
+    <string name="frmFirstYNynda.zhongzhiYears">种植年度:</string>
+    <string name="frmFirstYNynda.zhongzhiArea">种植面积(亩):</string>
+    <string name="frmFirstYNynda.credit">诚信度:</string>
+    <string name="frmFirstYNynda.starPingding">星级评定:</string>
+    <string name="frmFirstYNynda.yannongState">烟农状态:</string>
+    <string name="frmFirstYNynda.wanggeFuzeren">烟技员:</string>
+
+
+    <!--第一页烟田档案表-->
+    <string name="frmFirstYNytda.yannongName">烟农姓名：</string>
+    <string name="frmFirstYNytda.shiyongniandu">使用年度：</string>
+    <string name="frmFirstYNytda.mianji">面积(亩)：</string>
+    <string name="frmFirstYNytda.hintmianji">输入烟田面积</string>
+    <string name="frmFirstYNytda.soiltsrc">土地来源：</string>
+    <string name="frmFirstYNytda.lng">经度：</string>
+    <string name="frmFirstYNytda.lat">纬度：</string>
+    <string name="frmFirstYNytda.soiltype">土壤类型：</string>
+    <string name="frmFirstYNytda.precrop">前茬作物：</string>
+    <string name="frmFirstYNytda.dilishuiping">地力水平：</string>
+    <string name="frmFirstYNytda.water">灌溉条件：</string>
+    <string name="frmFirstYNytda.dixing">地形：</string>
+
+    <!--第一页种植审批表-->
+    <string name="frmFirstYNzzsp.jibenxinxi">基础信息</string>
+    <string name="frmFirstYNzzsp.yannongName">烟农姓名：</string>
+    <string name="frmFirstYNzzsp.shengpiniandu">审批年度：</string>
+    <string name="frmFirstYNzzsp.yanjiyuanShengpi">烟技员审批：</string>
+    <string name="frmFirstYNzzsp.stopShengpi">烟站审批人：</string>
+    <string name="frmFirstYNzzsp.yancaoleixing">烟草类型：</string>
+    <string name="frmFirstYNzzsp.zhongzhimianji">种植面积(亩)：</string>
+    <string name="frmFirstYNzzsp.hintzhongzhimianji">输入种植面积</string>
+    <string name="frmFirstYNzzsp.shenpiren">审批人：</string>
+    <string name="frmFirstYNzzsp.shenpizhuangtai">审批状态：</string>
+
+    <!--第一页合同管理表-->
+    <string name="frmFirstYNhtgl.yannongName">烟农姓名：</string>
+    <string name="frmFirstYNhtgl.hetongID">合同编号：</string>
+    <string name="frmFirstYNhtgl.qianyueniandu">签约年度：</string>
+    <string name="frmFirstYNhtgl.caoqianmianji">草签面积(亩)：</string>
+    <string name="frmFirstYNhtgl.hintcaoqianmianji">输入草签面积</string>
+    <string name="frmFirstYNhtgl.caoqianNum">草签数量：</string>
+    <string name="frmFirstYNhtgl.hintcaoqianNum">输入草签数量</string>
+    <string name="frmFirstYNhtgl.caoqianTime">草签时间：</string>
+    <string name="frmFirstYNhtgl.jiaoxiao">暂不输入</string>
+    <string name="frmFirstYNhtgl.jiaoxiaomianji">交销面积(亩)：</string>
+    <string name="frmFirstYNhtgl.hintjiaoxiaomianji">输入交销面积</string>
+    <string name="frmFirstYNhtgl.jiaoxiaoNum">交销数量：</string>
+    <string name="frmFirstYNhtgl.hintjiaoxiaoNum">输入交销数量</string>
+    <string name="frmFirstYNhtgl.qianyueTime">签约时间：</string>
+
+
+    <!--第一页育苗户信息-->
+    <string name="frmFirstYMHyumiaohu.yumiaohuName">姓名：</string>
+    <string name="frmFirstYMHyumiaohu.inputhintname">输入姓名</string>
+    <string name="frmFirstYMHyumiaohu.IDcardNum">身份证号:</string>
+    <string name="frmFirstYMHyumiaohu.inputhintIDcardNum">输入身份证号</string>
+    <string name="frmFirstYMHyumiaohu.age">年龄:</string>
+    <string name="frmFirstYMHyumiaohu.inputhintIDcardNumYZ">先输入正确身份证号</string>
+    <string name="frmFirstYMHyumiaohu.sex">性别:</string>
+    <string name="frmFirstYMHyumiaohu.phoneNum">手机号:</string>
+    <string name="frmFirstYMHyumiaohu.inputhintphone">输入手机号</string>
+    <string name="frmFirstYMHyumiaohu.cultureLevel">文化程度:</string>
+    <string name="frmFirstYMHyumiaohu.yumiaoYears">育苗年度:</string>
+    <string name="frmFirstYMHyumiaohu.yumiaodian">育苗工场：</string>
+    <string name="frmFirstYMHyumiaohu.yumiaoState">育苗户状态:</string>
+    <string name="frmFirstYMHyumiaohu.wanggeFuzeren">网格负责人:</string>
+
+    <!--第一页育苗户信息-->
+    <string name="frmFirstYMHymsq.gongmiaohu">供苗户：</string>
+    <string name="frmFirstYMHymsq.hintgongmiaohu">输入供苗户姓名</string>
+    <string name="frmFirstYMHymsq.gongmiaoYear">供苗年度：</string>
+    <string name="frmFirstYMHymsq.yanyeType">烟叶类型：</string>
+    <string name="frmFirstYMHymsq.yumiaoNum">育苗数量：</string>
+    <string name="frmFirstYMHymsq.hintyumiaoNum">输入育苗盆数</string>
+    <string name="frmFirstYMHymsq.yumiaoMianji">育苗面积(亩)：</string>
+    <string name="frmFirstYMHymsq.hintyumiaoMianji">输入育苗面积</string>
+    <string name="frmFirstYMHymsq.yanjiyuanshenpi">烟技员审批：</string>
+    <string name="frmFirstYMHymsq.stopshenpi">烟站审批人：</string>
+    <string name="frmFirstYMHymsq.shenqingTime">申请时间：</string>
+
+    <!--第一页物资发放信息-->
+    <string name="frmFirstWZwaff.name">物资名称：</string>
+    <string name="frmFirstWZwaff.hintname">输入物资名称</string>
+    <string name="frmFirstWZwaff.danwei">物资单位：</string>
+    <string name="frmFirstWZwaff.farmer">物资领取人：</string>
+    <string name="frmFirstWZwaff.hintfarmer">输入领取人姓名</string>
+    <string name="frmFirstWZwaff.num">物资数量：</string>
+    <string name="frmFirstWZwaff.hintnum">输入物资数量</string>
+    <string name="frmFirstWZwaff.money">物资金额(元)：</string>
+    <string name="frmFirstWZwaff.hintmoney">输入物资总金额</string>
+
+    <!--11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111-->
+
+    <!--第四页按钮名称-->
+    <string name="frmForthSjql">数据清理</string>
+    <string name="frmForthBzwd">帮助文档</string>
+    <string name="frmForthMmxg">密码修改</string>
+    <string name="frmForthRjsj">软件升级</string>
+    <string name="frmForthGyxt">关于系统</string>
+    <string name="frmForthNdsz">年度设置</string>
+
+    <!--年度-->
+    <string name="niandu2016">2016年</string>
+    <string name="niandu2017">2017年</string>
+
+    <!--帮助文档-->
+    <string name="help">帮助文档\n烟叶生产标准化系统</string>
+
+    <!--关于我们-->
+    <string name="gywmRjmc">软件名称</string>
+    <string name="gywmRjmcName">烟叶生产标准化系统</string>
+    <string name="gywmRjbb">软件版本</string>
+    <string name="gywmFbrq">发布日期</string>
+    <string name="gywmKfgs">开发公司</string>
+    <string name="gywmGsName">河南和颂科技有限公司</string>
+
+
+    <!--生产管理页面信息-->
+    <string name="production_yumiao">育苗</string>
+    <string name="production_xiaodu">消毒</string>
+    <string name="production_miaoqiguanli">苗期管理</string>
+    <string name="production_bingchongfangzhi">病虫害防治</string>
+    <string name="production_yumiaofafang">育苗发放</string>
+    <string name="production_zhuifei">苗床追肥</string>
+    <string name="production_wenshidu">温湿度管理</string>
+    <string name="production_zhengdiqilong">整地起垄</string>
+    <string name="production_tengcha">腾茬</string>
+    <string name="production_donggeng">冬耕</string>
+    <string name="production_qilong">起垄</string>
+    <string name="production_dongguan">冬灌</string>
+    <string name="production_yizaiguanli">移栽管理</string>
+    <string name="production_shifeiguanli">田间施肥</string>
+    <string name="production_jifei">基肥</string>
+    <string name="production_xuefei">穴肥</string>
+    <string name="production_tianjianzhuifei">追肥</string>
+    <string name="production_tianjianguanli">田间管理</string>
+    <string name="production_jiemopeitu">揭膜中耕培土</string>
+    <string name="production_dadingyiya">打顶抑芽</string>
+    <string name="production_guangai">灌溉</string>
+    <string name="production_zhibao">植保</string>
+    <string name="production_caishouhongkao">采收烘烤</string>
+    <string name="production_chengshucaishou">成熟采收</string>
+    <string name="production_hongkao">烘烤</string>
+    <string name="production_hongkaoshi">烘烤师</string>
+    <string name="production_chanliangyuce">产量预测</string>
+    <string name="production_tianjianpinggu">田间评估</string>
+    <string name="production_kaohoupinggu">烤后评估</string>
+    <string name="production_baoxian">保险</string>
+    <string name="production_shougouchaxun">收购查询</string>
+    <string name="production_ziranzaihai">自然灾害统计</string>
+    <string name="production_yannongpingji">烟农评级</string>
+    <!--综合信息页面信息-->
+    <string name="zonghe_kaohebiaozhun">考核标准</string>
+    <string name="zonghe_peixunxuanchuan">培训宣传</string>
+    <string name="zonghe_bingchonghai">病虫害防治</string>
+    <string name="zonghe_biaozhunzhishiku">标准知识库</string>
+    <string name="zonghe_fuchizhengce">扶持政策</string>
+    <string name="zonghe_shijuwenjian">市局文件</string>
+    <string name="zonghe_yancaofalv">烟草法律</string>
+    <!--bar信息-->
+    <string name="chaxunliebiao">查询列表</string>
+    <string name="xinzengjilu">新增记录</string>
+    <string name="bianjijilu">编辑记录</string>
+    <string name="xinzeng">新增</string>
+    <string name="shangchuan">上传</string>
+    <string name="niandu">年度</string>
+    <string name="sousuo">搜索</string>
+    <string name="baocun">保存</string>
+    <!--新增烟田规划页面信息-->
+    <string name="addMsg_niandu">年度:</string>
+    <string name="addMsg_bianhao">编号:</string>
+    <string name="addMsg_bianhao_hint">请输入编号</string>
+    <string name="addMsg_dengjiyuan">登记员:</string>
+    <string name="addMsg_dengjiyuan_hint">请输入登记员名字</string>
+    <string name="addMsg_time">登记时间:</string>
+    <string name="addMsg_idcard">身份证号:</string>
+    <string name="addMsg_idcardhint">请输入身份证号</string>
+    <string name="addMsg_weizhi">位置:</string>
+    <string name="addMsg_weizhi_hint">请输入位置（乡镇村）</string>
+    <string name="addMsg_jingdu">经度:</string>
+    <string name="addMsg_jingdu_hint">请点击选择经度</string>
+    <string name="addMsg_weidu">纬度:</string>
+    <string name="addMsg_weidu_hint">请点击选择纬度</string>
+    <string name="addMsg_tudilaiyuan">土地来源:</string>
+    <string name="addMsg_turangleixing">土壤类型:</string>
+    <string name="addMsg_tuzhileixing">土质类型:</string>
+    <string name="addMsg_dixing">地形:</string>
+    <string name="addMsg_qianchazuowu">前茬作物:</string>
+    <string name="addMsg_paiguantiaojian">排灌条件:</string>
+    <string name="addMsg_shenfenzheng">烟农身份证:</string>
+    <string name="addMsg_modishijian">摸底时间:</string>
+    <string name="addMsg_caoqianshijian">草签时间:</string>
+    <!--新增温湿度页面信息-->
+    <string name="addMsg_wendu">温度（℃）:</string>
+    <string name="addMsg_wendu_hint">请输入温度</string>
+    <string name="addMsg_shidu">湿度（%）:</string>
+    <string name="addMsg_shidu_hint">请输入湿度</string>
+    <string name="addMsg_caijishijian">采集时间：</string>
+    <!--新增移栽页面信息-->
+    <string name="addMsg_zhongzhihu">种植户:</string>
+    <string name="addMsg_mianji">面积（亩）:</string>
+    <string name="addMsg_mianji_hint">请输入面积</string>
+    <string name="addMsg_start">开始时间:</string>
+    <string name="addMsg_time_hint">点击选择时间</string>
+    <string name="addMsg_end">结束时间:</string>
+    <string name="addMsg_yanmiaoleixing">种植品种:</string>
+    <string name="addMsg_gaimo">是否盖膜:</string>
+    <string name="addMsg_hangju">行距（厘米）:</string>
+    <string name="addMsg_hangju_hint">请输入行距</string>
+    <string name="addMsg_zhuju">株距（厘米）:</string>
+    <string name="addMsg_zhuju_hint">请输入株距</string>
+    <string name="addMsg_yizaifangshi">移栽方式：</string>
+    <string name="addMsg_bingchong">地下害虫防治情况：</string>
+    <string name="addMsg_chenghuolv">成活率（%）：</string>
+    <string name="addMsg_beizhu">备注:</string>
+    <string name="addMsg_beizhu_hint">请输入备注信息</string>
+    <string name="addMsg_biaozhun">参考标准:</string>
+    <string name="addMsg_save">保存</string>
+    <string name="addMsg_back">返回</string>
+    <!--新增苗床追肥页面信息-->
+    <string name="addMsg_shifeishijian">施肥时间:</string>
+    <string name="addMsg_zhonglei">施肥种类:</string>
+    <string name="addMsg_shifeiliang">肥料用量(公斤):</string>
+    <string name="addMsg_pengshu">大棚数量:</string>
+    <string name="addMsg_shifeiway">施肥方式:</string>
+    <string name="addMsg_shifeiway_hint">请输入施肥方式</string>
+    <string name="addMsg_shifeiliang_hint">请输入施肥量</string>
+    <string name="addMsg_shifeimianji">施肥面积:</string>
+    <string name="addMsg_shifeimianji_hint">请输入施肥面积</string>
+    <!--新增病虫害防治页面信息-->
+    <string name="addMsg_fangzhishijian">防治时间:</string>
+    <string name="addMsg_yaowuming">用药名称:</string>
+    <string name="addMsg_nongdu">浓度(%）:</string>
+    <string name="addMsg_nongdu_hint">请输入浓度</string>
+    <string name="addMsg_yaowuming_hint">请输入药物名称</string>
+    <string name="addMsg_bingchongleixing">病虫害类型:</string>
+    <string name="addMsg_fabinglv">病指/发病率（%）:</string>
+    <string name="addMsg_fabinglv_hint">请录入发病率</string>
+    <string name="addMsg_fabingmianji">发病面积（亩）:</string>
+    <string name="addMsg_fabingmianji_hint">请录入发病面积</string>
+    <string name="addMsg_yugusunshi">预估损失量（公斤）:</string>
+    <string name="addMsg_yugusunshi_hint">请录入预估损失量</string>
+    <string name="addMsg_fangzhifangshi">防治方式:</string>
+    <string name="addMsg_fangzhifangshi_hint">请录入防治方式</string>
+    <!--新增烘烤页面信息-->
+    <string name="addMsg_zhuanyehua">专业化烘烤:</string>
+    <string name="addMsg_quqingquza">去青去杂:</string>
+    <string name="addMsg_xianyanzhong">鲜烟重量（公斤）:</string>
+    <string name="addMsg_xianyanzhong_hint">请输入鲜烟重量</string>
+    <string name="addMsg_hongganzhong">烘干重量（公斤）:</string>
+    <string name="addMsg_hongganzhong_hint">请输入烘干重量</string>
+    <string name="addMsg_haodian">耗电量（千瓦）:</string>
+    <string name="addMsg_haodian_hint">请输入耗电量</string>
+    <string name="addMsg_haomei">耗煤量（千瓦）:</string>
+    <string name="addMsg_haomei_hint">请输入耗煤量</string>
+    <string name="addMsg_chengben">烘烤成本（元）:</string>
+    <string name="addMsg_chengben_hint">请输入烘烤成本</string>
+    <!--新增烘烤师页面信息-->
+    <string name="addMsg_xingming">烘烤师姓名:</string>
+    <string name="addMsg_xingming_hint">请输入姓名</string>
+    <string name="addMsg_tel">电话:</string>
+    <string name="addMsg_tel_hint">请输入电话</string>
+    <string name="addMsg_xiaoguo">烘烤效果:</string>
+    <!--新增烟田灌溉页面信息-->
+    <string name="addMsg_guangaicishu">灌溉次数:</string>
+    <string name="addMsg_guangaishijian">灌溉时间:</string>
+    <string name="addMsg_guangaifangshi">灌溉方式:</string>
+    <!--新增成熟采收页面信息-->
+    <string name="addMsg_kangci">炕次:</string>
+    <string name="addMsg_kangci_hint">请输入炕次</string>
+    <string name="addMsg_ganshu">杆(夹)数:</string>
+    <string name="addMsg_ganshu_hint">请输入杆(夹)数:</string>
+    <string name="addMsg_xianyanfenlei">鲜烟分类:</string>
+    <string name="addMsg_zhuanyedui">专业队采收:</string>
+    <string name="addMsg_anchengshudu">按成熟度采收:</string>
+    <string name="addMsg_chengshudu">成熟度一致:</string>
+    <!--新增消毒页面信息-->
+    <string name="addMsg_riqi">消毒日期:</string>
+    <string name="addMsg_yongyaomingcheng">用药名称：</string>
+    <string name="addMsg_xiaodusheshi">消毒设施:</string>
+    <!--新增苗期管理页面信息-->
+    <string name="addMsg_bozhongtime">播种日期:</string>
+    <string name="addMsg_chumiaotime">出苗日期：</string>
+    <string name="addMsg_jiandingmiaotime">间、定苗日期：</string>
+    <string name="addMsg_jianyetime">剪叶日期:</string>
+    <string name="addMsg_lianmiaotime">炼苗日期：</string>
+    <string name="addMsg_gongmiaotime">供苗日期：</string>
+    <string name="addMsg_zhuangmiaolv">壮苗率(%)：</string>
+    <string name="addMsg_miaoqing">苗情:</string>
+    <!--新增育苗发放页面信息-->
+    <string name="addMsg_shijian">时间:</string>
+    <string name="addMsg_pinzhong">品种:</string>
+    <string name="addMsg_shuliang">数量:</string>
+    <string name="addMsg_shuliang_hint">请输入数量</string>
+    <!--新增整地起垄页面信息-->
+    <string name="addMsg_zhengdishijian">时间:</string>
+    <string name="addMsg_zhengdimianji">面积:</string>
+    <string name="addMsg_zhengdimianji_hint">请输入面积</string>
+    <!--新增揭膜中耕培土页面信息-->
+    <string name="addMsg_jiemo">是否揭膜:</string>
+    <string name="addMsg_jiemoshijian">揭膜时间:</string>
+    <string name="addMsg_peitushijian">中耕培土时间:</string>
+    <string name="addMsg_gaodu">培垄高度（厘米）:</string>
+    <string name="addMsg_gaodu_hint">请输入培垄高度</string>
+    <string name="addMsg_kaigoupaishui">开沟排水:</string>
+    <!--新增打顶抑牙页面信息-->
+    <string name="addMsg_xianleitime">现蕾时间:</string>
+    <string name="addMsg_dadingtime">打顶时间:</string>
+    <string name="addMsg_youhuashijian">底脚叶优化时间:</string>
+    <string name="addMsg_youhuapianshu">底脚叶优化片数：</string>
+    <string name="addMsg_yanyezhangshi">烟叶长势：</string>
+    <string name="addMsg_yiyaji">抑牙剂名称：</string>
+    <!--新增植保页面信息-->
+    <string name="addMsg_zhibaotime">植保时间:</string>
+    <string name="addMsg_yaopinming">药品名称:</string>
+    <string name="addMsg_yaopinnongdu">浓度（%）:</string>
+    <string name="addMsg_yaopinnongdu_hint">请输入浓度</string>
+    <!--新增自然灾害统计页面信息-->
+    <string name="addMsg_shouzaimianji">受灾面积:</string>
+    <string name="addMsg_shouzaimianji_hint">请输入受灾面积</string>
+    <string name="addMsg_hetongmianji">合同面积:</string>
+    <string name="addMsg_hetongmianji_hint">请输入合同面积</string>
+    <string name="addMsg_shouzaizhonglei">受灾种类:</string>
+    <string name="addMsg_sunshi">损失产量（kg）:</string>
+    <string name="addMsg_sunshi_hint">请输入损失产量</string>
+    <!--新增田间评估页面信息-->
+    <string name="addMsg_pinggumianji">面积:</string>
+    <string name="addMsg_zhushu">株树量:</string>
+    <string name="addMsg_zhushu_hint">请输入株树量</string>
+    <string name="addMsg_youxiaoyeshu">有效叶数:</string>
+    <string name="addMsg_youxiaoyeshu_hint">请输入有效叶数</string>
+    <string name="addMsg_danye">单叶重量（g）:</string>
+    <string name="addMsg_danye_hint">请输入单叶重量:</string>
+    <string name="addMsg_zongzhong">总重量（kg）:</string>
+    <string name="addMsg_zongzhong_hint">请输入总重量:</string>
+    <string name="addMsg_pinggushijian">评估时间:</string>
+    <!--新增烤后评估页面信息-->
+    <string name="addMsg_pinggukangci">炕次:</string>
+    <string name="addMsg_pinggukangci_hint">请输入炕次</string>
+    <string name="addMsg_dankangganshu">单炕杆数:</string>
+    <string name="addMsg_dankangganshu_hint">请输入单炕杆数</string>
+    <string name="addMsg_danganzhongliang">单杆重量（kg）:</string>
+    <string name="addMsg_danganzhongliang_hint">请输入单杆重量:</string>
+    <string name="addMsg_zongchan">总产（kg）:</string>
+    <string name="addMsg_zongchan_hint">请输入总产:</string>
+    <!--新增保险页面信息-->
+    <string name="addMsg_toubaomianji">投保面积（亩）:</string>
+    <string name="addMsg_toubaomianji_hint">请输入投保面积</string>
+    <string name="addMsg_lipeimianji">理赔面积（亩）:</string>
+    <string name="addMsg_lipeimianj_hinti">请输入理赔面积</string>
+    <!--采集状态-->
+    <string-array name="state">
+        <item>已上传</item>
+        <item>未上传</item>
+    </string-array>
+
+    <!--育苗户-->
+    <string name="addMsg_yumiaohu">育苗户:</string>
+</resources>

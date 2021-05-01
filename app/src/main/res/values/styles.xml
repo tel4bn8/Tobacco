@@ -1,0 +1,224 @@
+﻿<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:listDivider">@drawable/divider_bg</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <!-- 底部导航 -->
+    <style name="daohangStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center_horizontal|bottom</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/tab_selector_color</item>
+        <item name="android:paddingTop">3dp</item>
+    </style>
+
+    <!--标题时间样式-->
+    <style name="title_Time">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!--第一页分项单行标题样式-->
+    <style name="frmFiestlineTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!--第一页可点击LinearLayout样式-->
+    <style name="frmFiestlineTitle.ll">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/tab_selector_img</item>
+    </style>
+
+    <!--第一页图标样式-->
+    <style name="frmFiestlineTitle.iv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:clickable">false</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:duplicateParentState">true</item>
+    </style>
+
+    <!--第一页图标描述文字样式-->
+    <style name="frmFiestlineTitle.tv">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:clickable">false</item>
+        <item name="android:duplicateParentState">true</item>
+    </style>
+
+    <!--我的设置界面LinearLayout样式-->
+    <style name="person_LinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:background">@drawable/tab_selector_img</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <!-- 我的设置页面text-->
+    <style name="person_text">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginLeft">7dp</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:clickable">false</item>
+        <item name="android:duplicateParentState">true</item>
+    </style>
+
+    <!-- 我的设置页面image-->
+    <style name="person_img">
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:clickable">false</item>
+        <item name="android:duplicateParentState">true</item>
+    </style>
+
+    <!--年度设置选择年度样式-->
+    <style name="person_niandushezhi_check">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">63dp</item>
+        <item name="android:background">@drawable/shapewhite</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <!-- 第二页生产管理 -->
+    <style name="viewStyle01">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>>
+        <item name="android:background">@color/green</item>
+    </style>
+    <style name="viewStyle03">
+        <item name="android:layout_width">0.5dp</item>
+        <item name="android:layout_height">match_parent</item>>
+        <item name="android:background">@color/gray</item>
+    </style>
+    <style name="titleText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="llStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>>
+        <item name="android:layout_weight">1</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/tab_selector_img</item>
+    </style>
+    <style name="imgStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>>
+        <item name="android:paddingTop">10dp</item>>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+    <style name="textStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+    <!--综合信息-->
+    <style name="layoutStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>>
+        <item name="android:layout_margin">10dp</item>>
+        <item name="android:background">@drawable/tab_selector_img</item>>
+        <item name="android:orientation">horizontal</item>>
+        <item name="android:clickable">true</item>>
+    </style>
+    <style name="imageView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">wrap_content</item>>
+    </style>
+    <style name="textView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+    <!--自定义标题-->
+    <style name="itemTitleText">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="itemTitleItemStyle">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <!--分隔线-->
+    <style name="item_hori_line">
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:background">@color/gray</item>
+    </style>
+    <style name="item_ver_line">
+        <item name="android:background">@color/gray</item>
+    </style>
+    <!--新增页面-->
+    <style name="addpage_text">
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@null</item>
+    </style>
+    <style name="addpage_edit">
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@null</item>
+    </style>
+    <!--button-->
+    <style name="btnStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/tab_selector_saveback_btn</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:paddingRight">30dp</item>
+    </style>
+    <!--按钮间距-->
+    <style name="btnPadding">
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+</resources>

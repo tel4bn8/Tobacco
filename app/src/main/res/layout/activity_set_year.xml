@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_set_year"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightgray"
+    android:orientation="vertical"
+    tools:context="com.nss.tobacco.activity.SetYearActivity">
+
+    <include layout="@layout/next_lev_title"/>
+
+    <RadioGroup
+        android:id="@+id/frm_forth_ndsz_rg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/frm_forth_ndsz_rb_2016"
+            style="@style/person_niandushezhi_check"
+            android:text="@string/niandu2016"/>
+
+        <RadioButton
+            android:id="@+id/frm_forth_ndsz_rb_2017"
+            style="@style/person_niandushezhi_check"
+            android:text="@string/niandu2017"/>
+
+    </RadioGroup>
+
+</LinearLayout>
