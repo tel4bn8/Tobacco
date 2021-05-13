@@ -5,4 +5,5 @@ package com.nss.tobacco;
  */
 
 public class Test {
+    private String str;
 }
