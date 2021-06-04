@@ -8,5 +8,4 @@ public class Test {
     private String str;
     private String str2;
     private  String str3;
-    
 }
